@@ -1,1 +1,30 @@
-  
+  {
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": null
+        },
+        "postgresVersion": {
+            "value": "11"
+        },
+        "postgresPricingTier": {
+            "value": "GeneralPurpose"
+        },
+        "postgresCPUCores": {
+            "value": 2
+        },
+        "postgresDiskSizeInMB": {
+            "value": 10240
+        },
+        "postgresAdminUsername": {
+            "value": "hasura"
+        },
+        "postgresAdminPassword": {
+            "value": null
+        },
+        "postgresDatabaseName": {
+            "value": "hasura"
+        }
+    }
+}
